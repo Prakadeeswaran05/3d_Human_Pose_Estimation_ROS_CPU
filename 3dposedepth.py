@@ -31,7 +31,7 @@ class pose3d_estim:
         self.depth_image_sub = mf.Subscriber("/camera/depth/image_raw",Image)
         self.camera_info_sub = mf.Subscriber("/camera/depth/camera_info",CameraInfo)
         
-        ts = mf.ApproximateTimeSynchronizer([self.rgb_image_sub, self.depth_image_sub,self.camera_info_sub], queue_size=20, slop=0.3, allow_headerless=False)
+        ts = mf.ApproximateTimeSynchronizer([self.rgb_image_sub, self.depth_image_sub,self.camera_info_sub], queue_size=20, slop=0.4, allow_headerless=False)
         ts.registerCallback(self.image_callback)
         self.marker_pub=rospy.Publisher("marker_test", MarkerArray, queue_size=10)
         self.bridge = CvBridge()
