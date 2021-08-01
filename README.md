@@ -46,6 +46,6 @@ fy=X-axis focal length in meters </br>
 </p>
  
 </br> 
-I personally found that second approach was slower than the first one. After moving human model in gazebo it took some time for 3d pose to appear in Rviz.</br>
+I personally found that first approach was faster than the second one. For the second approach, after moving human model in gazebo it took some time for 3d pose to appear in Rviz.</br>
 
 ### PS: I tested these codes in Ubuntu 18 VM without GPU
