@@ -1,4 +1,4 @@
-# 3d_Pose_Estimation_ROS_Cpu
+# 3d_Human_Pose_Estimation_ROS_Cpu
 
 
 This repo contains code that takes in estimated 2d anatomical landmarks in image coordinate(u,v) and convert them to world coordinate(x,y,z).Also,these projected landmarks are displayed in rviz with the help of sphere markers(joints) that are joined together with line markers(links). Here I have used two approaches to estimate the 3d landmarks.
