@@ -33,6 +33,11 @@ fy=X-axis focal length in meters </br>
 
 ## Output First Approach
 <p align="left">
+  <img src="moving_person.gif" />
+</p>
+</br>
+</br>
+<p align="left">
   <img src="out_intrinsic.gif" />
 </p>
 
